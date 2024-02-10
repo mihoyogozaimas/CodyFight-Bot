@@ -13,7 +13,7 @@ except ImportError:
 # Replace the 'your key' with your key, it should look like this:
 # CKEY= "8228bf-..."
 if ImportFailed:
-    CKEY = 'your key'
+    CKEY = 'y73bee1-44bdf6-e604dc-0abc1a'
 
 # The numbers corresponding to the game modes can be obtained from the api doc https://codyfight.com/api-doc
 # Change this variable if you want to deploy in the other modes
@@ -34,7 +34,7 @@ SAVEHISTORY = True
 
 # Change this variable to True if you want the bot to go only to the exit, basic movement, no strategy, usefull only for missions, not recommended in the long run
 # Keep it False and the bot will move towards Ryo if its sorrounded and can be trapped, and against Kix (ONLY APPLIES FOR HUNTERBOT)
-GOEXIT = False
+GOEXIT = True
 
 # Change this variable to True if you want the bot to prioritize go to Bidirectional tiles, same as GOEXIT, basic movement, no strategy, recommended only for missions
 # If this variable is True it will overlap the GOEXIT variable/rule, and the bot will not move towards the exit
