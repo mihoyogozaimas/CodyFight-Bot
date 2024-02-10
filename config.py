@@ -1,7 +1,7 @@
 # Configuration Variables
 ImportFailed = False
 try:
-    from ckey import CKEY
+    from ckey.py import CKEY
 except ImportError:
     ImportFailed = True
     print("ckey.py file not found, use the template to create it!\nUsing ckey of the config.py file\n")
