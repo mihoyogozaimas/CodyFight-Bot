@@ -13,7 +13,7 @@ import sys
 from functools import partial
 
 # ckeys format = {"your ckey", "your another ckey", etc...}
-ckeys = {73bee1-44bdf6-e604dc-0abc1a}
+ckeys = {"73bee1-44bdf6-e604dc-0abc1a"}
 
 def loopGames(player, stopFlag, firstExecution=True):
     if firstExecution:
